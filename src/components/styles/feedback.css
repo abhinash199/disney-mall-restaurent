@@ -1,0 +1,68 @@
+.feedback-section{
+    background-color: rgb(229, 96, 115);
+    width: 100%;
+    margin-top: 61px;
+    margin-bottom: 35px;
+}
+.feedback-heading{
+   
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.feedback-heading h3{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: '-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif';
+}
+.feedback-heading p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.main-content{
+   
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1024px){
+    .main-content{
+        max-width: 600px;
+    }
+}
+.form-heading h2{
+    color: #241618;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+}
+.form-content{
+ padding: 10px 25px;
+}
+.form-name{
+    color: #241618!important;
+    font-size: 16px!important;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.star{
+    padding-bottom: 48px;
+    cursor: pointer;
+}
+
+.submit-button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
