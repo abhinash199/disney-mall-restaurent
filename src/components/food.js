@@ -40,7 +40,7 @@ function food() {
                                 <i class="icofont icofont-ui-press hr-icon"></i>
                                 <span class="hr-simple right"></span>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur placerat nulla, in suscipit erat sodales id. Nullam ultricies eu turpis at accumsan. Mauris a sodales mi, eget lobortis nulla.</p>
+                            <p>Lorem ipsum , consectetur adipiscing elit. Nullam efficitur placerat nulla, in suscipit erat sodales id. Nullam ultricies eu turpis at accumsan. Mauris a sodales mi, eget lobortis nulla.</p>
                         </div>
 
 
