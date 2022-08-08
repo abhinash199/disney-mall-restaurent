@@ -1,7 +1,6 @@
 
 import React, { useState,useRef,useEffect } from 'react';
 import styled,{createGlobalStyle} from 'styled-components';
-import RightNav from './RightNav';
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -116,13 +115,13 @@ const Hamburger = () => {
   
   return (
     <>
-    
+
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
-      {/* <RightNav open={open}/> */}
+    
 
 
 
