@@ -1,7 +1,15 @@
 import React from 'react'
 import { Carousel, Button } from "react-bootstrap";
 import "./styles/homepage.css";
+import { useNavigate } from "react-router-dom";
+
 function Homepage() {
+
+    let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    
+    navigate("/menu");
+  }
     return (
         <>
             <Carousel>
@@ -111,7 +119,7 @@ function Homepage() {
 
                     </div>
                     <div className='viewallmenubtn'>
-                        <Button variant="danger">VIEW OUR FULL MENU</Button>
+                        <Button  variant="danger"  onClick={routeChange}>VIEW OUR FULL MENU</Button>
                     </div>
                 </div>
             </section>
@@ -166,35 +174,7 @@ function Homepage() {
 
             </section>
 
-            <section className='footer-section'>
-              <div className='row'>
-                  <div className='col-lg-6 col-md-6 col-sm-6'>
-                       <div className='footer-content'>
-                             <p>+91-987665454736</p>
-                             <p>+91-876654587636</p>
-
-                             <div className='footer-info'>
-                                 <img src="https://cdn.dribbble.com/users/1303437/screenshots/3682540/clock_400x300.gif" alt=''/>
-                                 <span>
-                                     mon-thu: 11.00 – 23.00
-                                     sat: 12.00 – 23.00
-                                     sun: 12.00 – 21.00
-                                 </span>
-                             </div>
-                       </div>
-                     
-                      <p></p>
-                  </div>
-
-                  <div className='col-lg-6 col-md-6 col-sm-6'>
-                      
-                     
-                      <p></p>
-                  </div>
-
-              </div>
-            </section>
-        </>
+                    </>
     )
 }
 
