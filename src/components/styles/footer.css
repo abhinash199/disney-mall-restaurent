@@ -26,12 +26,20 @@
 }
 .footer_section .footer_contact .contact_link_box a {
     margin: 5px 0;
-    color: #ffffff;
+    color: #ffffff!important;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: 0 auto;
+    padding: 6px 0;
 }
 .footer_section .footer-logo {
     display: block;
     font-weight: bold;
     font-size: 38px;
     line-height: 1;
-    color: #ffffff;
+    color: #ffffff!important;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 22px;
 }

@@ -19,6 +19,26 @@ function About() {
         </div>
 
       </section>
+
+      <section className='about-section-second'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-4 col-md-4 col-xs-12'>
+              <div className='img-container'>
+                <img src ='https://templatemonster.vecuro.com/html/foodelio/ltr/assets/img/best-seller/seller-1-1.jpg'/>
+              </div>
+            </div>
+            <div className='col-lg-8 col-md-8 col-xs-12 text-center'>
+                 <h2>Best Seller</h2>   
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>      
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
       <section>
         <div class="award1-area">
           <div class="container">
@@ -60,7 +80,7 @@ function About() {
         <div className='container'>
           <div className='row'>
             <div class="col-sm-12 col-12 commontop text-center">
-              <h4>Breakfast Menu</h4>
+              <h4>Our Chef</h4>
               <div class="divider style-1 center">
                 <span class="hr-simple left"></span>
                 <i class="icofont icofont-ui-press hr-icon"></i>
