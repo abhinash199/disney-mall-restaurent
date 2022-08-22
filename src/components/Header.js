@@ -99,8 +99,8 @@ export default function Header() {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="lg" disableGutters="true">
+    <AppBar position="static"  className="top-header">
+      <Container maxWidth="lg" disableGutters="true" className="top-header">
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1, fontWeight: 700 }}>
             Food Zone

@@ -181,11 +181,11 @@ margin-bottom: 60px;
       background-color: rgb(248, 247, 247)!important;
       transition: 0.3s ease-in-out;
   }
-  .css-1p4tas-MuiContainer-root{
+  /* .css-1p4tas-MuiContainer-root{
     background-color: #222831;
-  }
+  } */
   .css-ci5apu-MuiSvgIcon-root{
-    color: #222812;
+    color: #222831;
   }
   .css-hip9hq-MuiPaper-root-MuiAppBar-root{
     background-color: #222831!important;
@@ -221,4 +221,7 @@ margin-bottom: 60px;
   }
   .menu .menu-link:active, :visited{
     color: red!important;
+  }
+  .top-header{
+    background :#222831!important;
   }
