@@ -7,7 +7,6 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-
 //drawer elements used
 import Drawer from "@mui/material/Drawer";
 import CloseIcon from "@mui/icons-material/Close";
@@ -27,7 +26,7 @@ import FastfoodIcon from '@mui/icons-material/Fastfood';
 import FeedbackIcon from '@mui/icons-material/Feedback';
 import PeopleIcon from '@mui/icons-material/People';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
-import { Link } from "@mui/material";
+import Link from '@mui/material/Link';
 
 const StyledSearch = styled("div")(({ theme }) => ({
   position: "relative",
@@ -86,6 +85,7 @@ export default function Header() {
   //react useState hook to save the current open/close state of the drawer, normally variables dissapear afte the function was executed
   const [open, setState] = useState(false);
 
+ 
   //function that is being called every time the drawer should open or close, the keys tab and shift are excluded so the user can focus between the elements with the keys
   const toggleDrawer = (open) => (event) => {
     if (
@@ -110,7 +110,7 @@ export default function Header() {
           <Link className="menu-link" href="/menu">Our Menu</Link>
           <Link className="menu-link" href="/food">Our Food</Link>
           <Link className="menu-link" href="/about-us">About us</Link>
-          <Link className="menu-link"href="/feedback">Feedback</Link>
+          <Link className="menu-link" href="/feedback">Feedback</Link>
           </div>
 
 
@@ -149,6 +149,7 @@ export default function Header() {
                 backgroundColor: "#ffffff",
                 width:"292px"
               }}
+             
             >
               {/* when clicking the icon it calls the function toggleDrawer and closes the drawer by setting the variable open to false */}
               <IconButton sx={{ mb: 2 }}>
@@ -158,35 +159,35 @@ export default function Header() {
               <Divider sx={{ mb: 2 }} />
 
               <Box sx={{ mb: 2 }}>
-                <ListItemButton className="menu-item-mobile">
+                <ListItemButton className="menu-item-mobile" component={Link} to="/">
                   <ListItemIcon sx={{minWidth:"32px"}} >
                     <HomeIcon sx={{ color: "primary.main"}} />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
 
-                <ListItemButton className="menu-item-mobile">
+                <ListItemButton className="menu-item-mobile" component={Link} href="/menu">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <MenuBookIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="Our Menu" />
                 </ListItemButton>
 
-                <ListItemButton className="menu-item-mobile">
+                <ListItemButton className="menu-item-mobile" component={Link} href="/food">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <FastfoodIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="Our Food" />
                 </ListItemButton>
 
-                <ListItemButton className="menu-item-mobile">
+                <ListItemButton className="menu-item-mobile" component={Link} href="/about-us">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <PeopleIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="About us" />
                 </ListItemButton>
 
-                <ListItemButton className="menu-item-mobile">
+                <ListItemButton className="menu-item-mobile"  component={Link} href="/feedback">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <FeedbackIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
