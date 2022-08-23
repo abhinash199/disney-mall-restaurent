@@ -163,35 +163,35 @@ export default function Header() {
                   <ListItemIcon sx={{minWidth:"32px"}} >
                     <HomeIcon sx={{ color: "primary.main"}} />
                   </ListItemIcon>
-                  <ListItemText primary="Home" />
+                  <ListItemText primary="Home"  className="menu-item"/>
                 </ListItemButton>
 
                 <ListItemButton className="menu-item-mobile" component={Link} href="/menu">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <MenuBookIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
-                  <ListItemText primary="Our Menu" />
+                  <ListItemText primary="Our Menu" className="menu-item" />
                 </ListItemButton>
 
                 <ListItemButton className="menu-item-mobile" component={Link} href="/food">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <FastfoodIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
-                  <ListItemText primary="Our Food" />
+                  <ListItemText primary="Our Food"  className="menu-item" />
                 </ListItemButton>
 
                 <ListItemButton className="menu-item-mobile" component={Link} href="/about-us">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <PeopleIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
-                  <ListItemText primary="About us" />
+                  <ListItemText primary="About us" className="menu-item" />
                 </ListItemButton>
 
                 <ListItemButton className="menu-item-mobile"  component={Link} href="/feedback">
                   <ListItemIcon sx={{minWidth:"32px"}}>
                     <FeedbackIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
-                  <ListItemText primary="Feedback" />
+                  <ListItemText primary="Feedback"  className="menu-item" />
                 </ListItemButton>
               </Box>
 
