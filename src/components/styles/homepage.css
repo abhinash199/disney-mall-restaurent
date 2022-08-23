@@ -171,13 +171,8 @@ margin-bottom: 60px;
   .container-fluid{
       padding: 0 200px!important;
   }
-  .css-1160xiw-MuiPaper-root-MuiDrawer-paper{
-    width: 290px!important;
-  }
-  .css-cveggr-MuiListItemIcon-root{
-    min-width: 32px!important;
-  }
-  .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover{
+  
+.menu-item-mobile:hover{
       background-color: rgb(248, 247, 247)!important;
       transition: 0.3s ease-in-out;
   }

@@ -122,8 +122,8 @@ export default function Header() {
             sx={{
               mr: 2,
               display: {
-                xs: "block",
-                sm: "none"
+                sm: "block",
+                md: "none"
               }
             }}
           >
@@ -146,7 +146,8 @@ export default function Header() {
               sx={{
                 
                 height: 1,
-                backgroundColor: "#ffffff"
+                backgroundColor: "#ffffff",
+                width:"292px"
               }}
             >
               {/* when clicking the icon it calls the function toggleDrawer and closes the drawer by setting the variable open to false */}
@@ -157,36 +158,36 @@ export default function Header() {
               <Divider sx={{ mb: 2 }} />
 
               <Box sx={{ mb: 2 }}>
-                <ListItemButton>
-                  <ListItemIcon>
-                    <HomeIcon sx={{ color: "primary.main" }} />
+                <ListItemButton className="menu-item-mobile">
+                  <ListItemIcon sx={{minWidth:"32px"}} >
+                    <HomeIcon sx={{ color: "primary.main"}} />
                   </ListItemIcon>
                   <ListItemText primary="Home" />
                 </ListItemButton>
 
-                <ListItemButton>
-                  <ListItemIcon>
+                <ListItemButton className="menu-item-mobile">
+                  <ListItemIcon sx={{minWidth:"32px"}}>
                     <MenuBookIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="Our Menu" />
                 </ListItemButton>
 
-                <ListItemButton>
-                  <ListItemIcon>
+                <ListItemButton className="menu-item-mobile">
+                  <ListItemIcon sx={{minWidth:"32px"}}>
                     <FastfoodIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="Our Food" />
                 </ListItemButton>
 
-                <ListItemButton>
-                  <ListItemIcon>
+                <ListItemButton className="menu-item-mobile">
+                  <ListItemIcon sx={{minWidth:"32px"}}>
                     <PeopleIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="About us" />
                 </ListItemButton>
 
-                <ListItemButton>
-                  <ListItemIcon>
+                <ListItemButton className="menu-item-mobile">
+                  <ListItemIcon sx={{minWidth:"32px"}}>
                     <FeedbackIcon sx={{ color: "primary.main" }} />
                   </ListItemIcon>
                   <ListItemText primary="Feedback" />

@@ -45,28 +45,28 @@ function About() {
             <div class="row">
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="award1-area-box">
-                  <InsertEmoticonIcon />
+                  <InsertEmoticonIcon sx={{color:"red",fontSize:"2.5rem"}}/>
                   <h2 class="about-counter" data-num="5030"><CountUP start={1000} end={3000} duration={5} /></h2>
                   <p>Happy Clients</p>
                 </div>
               </div>
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="award1-area-box">
-                  <FavoriteBorderIcon />
+                  <FavoriteBorderIcon sx={{color:"red",fontSize:"2.5rem"}} />
                   <h2 class="about-counter" data-num="2030"><CountUP start={1200} end={2000} duration={5} /></h2>
                   <p>Love People</p>
                 </div>
               </div>
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="award1-area-box">
-                  <LocalCafeOutlinedIcon />
+                  <LocalCafeOutlinedIcon sx={{color:"red",fontSize:"2.5rem"}} />
                   <h2 class="about-counter" data-num="3030"><CountUP start={500} end={1000} duration={5} /></h2>
                   <p>Cup Of Coffee</p>
                 </div>
               </div>
               <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="award1-area-box">
-                  <MenuBookOutlinedIcon />
+                  <MenuBookOutlinedIcon sx={{color:"red",fontSize:"2.5rem"}} />
                   <h2 class="about-counter" data-num="4320"><CountUP end={1000} duration={5} /></h2>
                   <p>Chef Recipes</p>
                 </div>
@@ -76,85 +76,41 @@ function About() {
         </div>
       </section>
 
-      <section className='chef-section'>
-        <div className='container'>
-          <div className='row'>
-            <div class="col-sm-12 col-12 commontop text-center">
-              <h4>Our Chef</h4>
-              <div class="divider style-1 center">
-                <span class="hr-simple left"></span>
-                <i class="icofont icofont-ui-press hr-icon"></i>
-                <span class="hr-simple right"></span>
+      <section className="section-50 section-sm-top-90 section-sm-bottom-70 chef-desc">
+          <div className="container"> 
+            <h4 className="font-default text-center">Meet Our Team</h4>
+            <p className='desc'>QuickFood’s team is what makes marks us out from other fast food restaurants. Everyone of us, <br className="visible-lg-inline"/> from founders to waiters, is a part of a friendly family, who always welcomes new members!</p>
+            <div className="row justify-content-xs-center offset-top-45">
+              <div className="col-sm-6 col-md-4">
+                <div className="thumbnail-variant-2"><img className="img-responsive" src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="" width="326" height="330"/>
+                  <div className="caption">
+                    <h5 className="caption-title text-center">Amanda Stark</h5>
+                    <p className="big text-italic text-center">Founder</p>
+                    
+                  </div>
+                </div>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur placerat nulla, in suscipit erat sodales id. Nullam ultricies eu turpis at accumsan. Mauris a sodales mi, eget lobortis nulla.</p>
-            </div>
-
-
-
-
-            <div class="col-sm-12 col-12">
-              <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-
-                  <div class="chef">
-
-                    <div class="chef-image">
-                      <img src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="image" title="image" class="img-responsive" />
-                      <h4><span>Jonh</span></h4>
-                      <div class="overlay">
-
-                        <p class="des">Cursus / Dictum / Risus</p>
-
-                      </div>
-                    </div>
-
+              <div className="col-sm-6 col-md-4 offset-top-50 offset-sm-top-0">
+                <div className="thumbnail-variant-2"><img className="img-responsive" src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="" width="326" height="330"/>
+                  <div className="caption">
+                    <h5 className="caption-title text-center">Edward Robinson</h5>
+                    <p className="big text-italic text-center">Head Chef</p>
+                    
                   </div>
-
                 </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-
-                  <div class="chef">
-
-                    <div class="chef-image">
-                      <img src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="image" title="image" class="img-responsive" />
-                      <h4><span>Mack</span></h4>
-
-                      <div class="overlay">
-
-                        <p class="des">Cursus / Dictum / Risus</p>
-
-                      </div>
-                    </div>
+              </div>
+              <div className="col-sm-6 col-md-4 offset-top-50 offset-md-top-0">
+                <div className="thumbnail-variant-2"><img className="img-responsive" src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="" width="326" height="330"/>
+                  <div className="caption">
+                    <h5 className="caption-title text-center">Rebecca Ives</h5>
+                    <p className="big text-italic text-center">Marketing Expert</p>
+                   
                   </div>
-
                 </div>
-
-
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-
-                  <div class="chef">
-
-                    <div class="chef-image">
-                      <img src="https://radiustheme.com/demo/html/redchili/redchili/img/team/2.jpg" alt="image" title="image" class="img-responsive" />
-                      <h4><span>Mike</span></h4>
-
-                      <div class="overlay">
-
-                        <p class="des">Cursus / Dictum / Risus</p>
-
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
     </>
   )
 }

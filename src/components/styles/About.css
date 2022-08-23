@@ -19,7 +19,7 @@
     font-family: 'Oswald', sans-serif;
     position: absolute;
     left: 21%;
-    top: 23%;
+    top: 53%;
     font-size: 48px;
     color: #fff;
     font-weight: bold;
@@ -72,10 +72,7 @@
     content: "\f08a";
 }
 
-.css-i4bv87-MuiSvgIcon-root {
-    font-size: 2.5rem !important;
-    color: red !important;
-}
+
 
 .chef-section {
     background: #f8f8f8;
@@ -163,4 +160,63 @@
     .css-1235hhr-MuiButtonBase-root-MuiIconButton-root{
         display:block!important
     }
+}
+
+
+
+
+h4.font-default {
+    font-weight: 700;
+}
+.thumbnail-variant-2 {
+    position: relative;
+    max-width: 326px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail-variant-2:before {
+    position: absolute;
+    top: -7px;
+    bottom: -7px;
+    right: 12px;
+    left: 12px;
+    background-color: #fccb56;
+    content: "";
+    display: inline-block;
+    transition: 350ms;
+    z-index: -1;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.thumbnail-variant-2 .caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 15px 23px;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+ .caption-title{
+    color: #fff;
+}
+.thumbnail-variant-2 .caption p {
+    margin-top: 0;
+    color: #fccb56;
+}
+
+.chef-desc{
+    background-color: #f8f8f8;
+    padding: 50px 0px;
+}
+.font-default{
+    padding-top: 40px;
+}
+.chef-desc .desc{
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    text-align: center;
 }
